@@ -32,9 +32,15 @@ A seventh label, **Self-Credit** (the speaker personally taking credit for outco
 
 Average Threat language is *higher the day before* a UCDP event (0.55) than on the event day itself (0.52) or the day after (0.48) - visible in individual posts too, e.g. a day-before post naming "Power Plant Day, and Bridge Day" ahead of further strikes. See the full write-up for limitations, including the lack of a counterfactual baseline (this doesn't compare against day-before language on dates where no strike occurred).
 
-## Note on the deployed page
+## Colab notebook vs. live page
 
-The live timeline page has additional hand-tuned polish layered on top of this notebook's HTML output (a per-post dominant-category badge, some CSS/alignment fixes, and a featured headline question). Rerunning this notebook reproduces the underlying event windows, labels, and scores faithfully, but not that final visual polish pass.
+Here, **the notebook means the Colab file** `Trump_Iran_Connected_Timeline_ZeroShot_Colab.ipynb`.
+
+The Colab does the actual analysis: it loads the event-window data, runs the zero-shot model, calculates the scores and event-balanced comparisons, and generates the base connected timeline.
+
+The live portfolio page starts from that output and then adds presentation-only changes such as spacing, alignment, navigation controls, badges, and headline text. Those edits change how the visualization looks and behaves, not the underlying scores or event-window calculations.
+
+So rerunning the Colab reproduces the analysis and base visualization, but it may not look pixel-for-pixel identical to the version on the portfolio site.
 
 ## Data sources
 
