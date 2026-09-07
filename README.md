@@ -1,6 +1,6 @@
 # Trump Truth Social Rhetoric Around UCDP Iran Events
 
-A computational text analysis asking: **in the day before a US-Israeli strike on Iran, does Donald Trump's Truth Social rhetoric telegraph the coming action** — through elevated threat language, or by naming targets outright — rather than only reacting to it afterward?
+A computational text analysis asking: **how does Donald Trump's Iran-related Truth Social rhetoric change in the day before, day of, and day after UCDP-recorded U.S. or joint U.S.–Israel conflict events, and is threat language elevated beforehand?**
 
 The finished, interactive visualization lives on my portfolio site:
 **[strokeofluck.github.io/sean-data-portfolio/projects/assets/political-text-analysis/trump-iran-connected-timeline.html](https://strokeofluck.github.io/sean-data-portfolio/projects/assets/political-text-analysis/trump-iran-connected-timeline.html)**
